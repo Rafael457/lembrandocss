@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+body{
+	background-color: black;
+}
+
+header{
+	background: linear-gradient(#20B2AA, #111111);
+	height: 200px;
+	padding: 50px;
+}
+
+li{
+	display: inline-block;
+	margin: 20px;
+}
+
+footer{
+	background: linear-gradient(#111111, #20B2AA);
+	height: 90px;
+	font-size: 15px;
+	text-align: center;
+	padding: 50px 0 0 0;
+	text-shadow:1px 1px 1px #111111;
+}
+
+h1{
+	text-align: center;
+	color: #FF7F50;
+	font-size: 40px;
+	margin: 0 0 100px 0;
+	text-shadow:3px 3px 1px #111111;
+}
+
+p{
+	color: white;
+	font-size: 24px;
+	text-shadow:2px 2px 1px #111111;
+}
+
+.topo{
+	padding: 10px;
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.efeito{
+	background-color:rgba(0,0,0, 0.5);
+	padding: 100px 0 100px 0; 
+}
+
+#div_principal{
+	clear: both;
+	background-image: url('fundopagina.jpg');
+	background-size: 100%;
+	min-height:800px;
+	padding: 100px 0 100px 0;
+}
+
+#logo{
+	float:left;
+}
+
+#logo img{
+	height:200px;
+}
+
+#menu{
+	margin-top:90px; 
+	float: right;
+}
+
+#menu a{
+	font-size: 20px;
+	margin: 10px;
+	padding: 80px;
+	text-decoration: none;
+	color: black;
+	text-shadow:1px 1px 1px #111111;
+}
+
+#menu a:hover{
+	background-color: #111111;
+	color:#20B2AA;
+	-webkit-transition:0.3s;
+}
+
+@media(max-width: 768px){
+	#menu{
+		float:none;
+		margin-top: 10px;
+	}
+
+	#menu a{
+		margin: 0px;
+		padding: 10px;
+		display: block;
+		text-align: center;
+	}
+
+	#logo{
+		float:none;
+		text-align: center;
+	}
+
+	#logo img{
+		height: 100px;
+	}
+
+	header{
+		height: 300px;
+	}
+}
+
+@media(max-width: 425px){
+	#menu{
+		float:none;
+		margin-top: 10px;
+	}
+
+	#menu a{
+		margin: 0px;
+		padding: 10px;
+		display: block;
+		text-align: center;
+	}
+
+	#logo{
+		float:none;
+		text-align: center;
+	}
+
+	#logo img{
+		height: 100px;
+	}
+
+	header{
+		height: 300px;
+	}	
+}
+
